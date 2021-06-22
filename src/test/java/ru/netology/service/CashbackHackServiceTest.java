@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldBe1000() {
         int actual = bonus.remain(1000);
-        int expected = 1000;
+        int expected = 0;
 
         assertEquals(actual, expected);
     }
